@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+    padding-top: 100px;
+    margin-top: -70px;
+    background-image: url('./image/panorama1200x800.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -250px;
+    height: 450px;
+}
+.navbar-nav a{
+    color: white;
+}
+.container-image{
+    background-image: url('./image/pendidikan.jpg');
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.jumbotron .container .img-primary{
+    box-shadow: 1px 1px 10px black;
+}
+.jumbotron .container .row .col-md-12{
+    color: white;
+}
+.container .row .col-md-4 .card{
+    box-shadow: 1px 1px 10px black;
+}
